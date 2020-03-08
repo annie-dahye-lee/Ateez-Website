@@ -1,12 +1,7 @@
-body {
-				background-color: pink;
+			body {
 				font-family: 'Bowlby One SC', cursive;
 				font-size: 13px;
 				border-radius: 100px;
-				background-image: url("background.gif");
-				background-position: auto;
-				background-repeat: no-repeat;
-				background-size:cover;
 			}
 			
 			.bio-container {
@@ -18,6 +13,48 @@ body {
 				margin-right: auto;
 				margin-top: 25px;
 				height: 1525px;
+				background-color: pink;
+			}
+
+			.Biography {
+				background-image: url("background.gif");
+				background-position: auto;
+				background-repeat: no-repeat;
+				background-size:cover;
+				background-color: pink;
+			}
+
+			.Members {
+				background-image: url("background.gif");
+				background-position: auto;
+				background-repeat: no-repeat;
+				background-size:cover;
+				background-color: pink;
+			}
+
+			.Gallery {
+				background-image: url("background.gif");
+				background-position: auto;
+				background-repeat: no-repeat;
+				background-size:cover;
+				background-color: pink;
+			}
+
+			.tables {
+			background-color:      #459DA1;	
+			background-image:      url("crowd.gif");
+			background-repeat:     no-repeat;
+			background-size:       cover;
+			background-attachment: fixed;
+			background-position:   center;
+		}
+
+			.Personal-Connections {
+			background-image: url("ateezconcert.jpg");
+			background-size:cover;
+			background-position: center;
+			background-repeat: no-repeat;
+			background-color: white;
 			}
 			
 			.content {
@@ -30,25 +67,47 @@ body {
 			}
 			
 			.navbar-gallery {
-				width: 556px;
+				width: 676px;
 				border-radius: 100px;
 				margin: auto;
+			}
+
+			.navbar-tables {
+				width: 678px;
+				border-radius: 100px;
+				margin: 100px;
 			}
 			
 			.navbar-pc {
-				width: 406px;
+				width: 526px;
 				border-radius: 100px;
 				margin: auto;
+				background-image: url("ateezconcert.jpg");
+				background-position: auto;
+				background-repeat: no-repeat;
+				background-size:cover;
+			}
+
+			.pc-h1 {
+				color: white;
+				text-align: center;
+				text-shadow: 4px 4px blue;
 			}
 			
 			.navbar-bio {
-				width: 529px;
+				width: 651px;
+				border-radius: 100px;
+				margin: auto;
+			}
+
+			.navbar-awards {
+				width: 678px;
 				border-radius: 100px;
 				margin: auto;
 			}
 			
 			.navbar-members {
-				width: 544px;
+				width: 665px;
 				border-radius: 100px;
 				margin: auto;
 			}
@@ -170,10 +229,6 @@ body {
 				color: black;
 				text-shadow: 4px 4px yellow;
 			}
-
-			h1 {
-				text-align: center;
-			}
 			
 			img {
 				float: left;
@@ -210,15 +265,35 @@ body {
 				  background-color: #111;				  
 				}
 
-			h1 {
+			.bio-h1 {
 				color: black;
 				text-shadow: 4px 4px red;
+				text-align: center;
 			}
 
-			h2 {
+			.bio-p {
+				color: blue;
+				text-shadow: 4px 4px yellow;
 				text-align: center;
+				font-size: 20px;
+			}
+
+			.albums {
 				color: black;
 				text-shadow: 4px 4px red;
+				text-align: center;
+			}
+
+			.members-h1 {
+				color: black;
+				text-shadow: 4px 4px red;
+				text-align: center;
+			}
+
+			.gallery-h1 {
+				color: black;
+				text-shadow: 4px 4px red;
+				text-align: center;
 			}
 
 			.members-container {
@@ -235,16 +310,16 @@ body {
 			.members {
 				text-align: center;
 				color: blue;
-				text-shadow: 4px 4px yellow;
+				text-shadow: 4px 4px yellow
 			}
 
 			.pc {
-				text-align: center;
-				margin-left: 120px;
 				color: blue;
-				text-shadow: 4px 4px yellow;
-				font-size: 20px;
-			}			
+				text-shadow: 3px 3px yellow;
+				font-size: 22px;
+				margin-right: 120px;
+				margin-left: 120px;
+				}
 
 			.position {
 				font-weight: bold;
@@ -273,3 +348,48 @@ body {
 				margin-top: 25px;
 				height: 2725px;
 			}
+
+			table, th, td {
+			border-bottom: 3px solid #DDDDDD;
+			border-left: 3px solid #DDDDDD;
+			text-align: center;
+		}
+
+		table {
+			border-collapse: collapse;
+			width: 400px;
+			background-color: black;
+			font-family: 'Bowlby One SC', cursive;
+		}
+
+		td:hover {
+			background-color: black;
+			color: white;
+		}
+
+		th, td {
+			padding: 10px;
+			color: white;
+			font-size: 17px;
+		}
+		
+		th {
+			background-color: #1201F9;
+			color: white;
+			font-family: 
+		}
+
+		.awards {
+			background-color: white;	
+			padding: 		  15px;
+			position:         absolute;
+			right:            500px;
+			top:              150px;
+			width:            500 px;	
+			box-shadow:		  -10px 20px 30px pink;
+			border-radius: 20px;
+		}
+
+	
+
+	
